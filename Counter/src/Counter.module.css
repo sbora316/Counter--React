@@ -1,0 +1,51 @@
+/* Counter.module.css */
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 2rem auto;
+  font-family: sans-serif;
+}
+
+.counter-container h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.count-display {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #646cff; /* Vite/React Purple-Blue */
+  margin: 1rem 0;
+}
+
+.count-btn {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 5px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #213547;
+  transition: all 0.2s ease;
+}
+
+.count-btn:hover {
+  border-color: #646cff;
+  background-color: #f0f0ff;
+}
+
+.count-btn:active {
+  transform: scale(0.98);
+}
